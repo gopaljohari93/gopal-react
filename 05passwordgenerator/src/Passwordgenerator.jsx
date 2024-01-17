@@ -1,7 +1,6 @@
 import React, { useState, useCallback, useEffect, useRef } from 'react';
-import Passwordgenerator from './Passwordgenerator';
 
-function App() {
+function Passwordgenerator() {
     // useState Hook 1
     const [length, setLength] = useState(8);
     const [numberAllowed, setNumberAllowed] = useState(false);
@@ -82,12 +81,12 @@ function App() {
                         />
                         <label htmlFor="characterInput">Character</label>
                     </div>
+
                 </div>
+
             </div>
-            {/* add component */}
-            <Passwordgenerator />
         </>
     )
 }
 
-export default App;
+export default Passwordgenerator;
