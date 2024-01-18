@@ -7,5 +7,5 @@ function Chai() {
             <h2>create-react-app me file name capital or Chai.jsx ya Chai.js rakh sakte hai</h2>
         </>
     )
-}
+} 
 export default Chai;
